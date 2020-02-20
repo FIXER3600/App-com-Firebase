@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <style type="text/css">
+    @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+    #map_canvas { /* Must bigger size than 100x100 pixels */
+      width: 100%;
+      height: 800px;
+    }
+    #btnvoltar {
+      padding: 5%;
+      border: 0;
+      border-radius: 100%;
+      background: #6c63ff;
+      top: 5%;
+      left: 5%;
+      z-index: 10;
+      position: relative;
+    }
+    i {
+      font-size: 20pt;
+      color: white;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="map_canvas">
+      <button id="btnvoltar"><i class="fas fa-arrow-left"></i></button>
+    </div>
+  </body>
+</html>

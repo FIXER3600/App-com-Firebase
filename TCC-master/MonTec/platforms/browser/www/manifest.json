@@ -1,0 +1,17 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "MonTec",
+  "short_name": "MonTec",
+  "version": "com.jojo.montec",
+  "description": "MonTec.",
+  "author": "Jojo",
+  "icons": [
+    {
+      "src": "res/icon.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
+  "start_url": "index.html"
+}

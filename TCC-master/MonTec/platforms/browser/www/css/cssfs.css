@@ -1,0 +1,100 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+@font-face {
+  font-family: 'ageo_personal_useregular';
+  src: url('ageopersonaluse-semibold-webfont.woff2') format('woff2'),
+  url('ageopersonaluse-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'rbc-webfont';
+  src: url('rbc-webfont.woff2') format('woff2'),
+  url('rbc-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+body{
+  color: white;
+  margin: 0;
+  font-family: 'ageo_personal_useregular';
+}
+
+#container {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: auto;
+}
+
+.login-box{
+  background-color: black;
+  margin-left: 15%;
+  width: 80%;
+  position: absolute;
+}
+.login-box h1{
+  font-size: 36px;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 2%;
+  font-size: 20px;
+  padding: 8px 0;
+}
+
+.textbox i{
+  color: #3b3b3b;
+  font-size: 25px;
+  width: 50px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  white-space: nowrap;
+	text-decoration: none;
+	letter-spacing: .5px;
+	font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  width: 80%;
+  float: right;
+}
+
+.btn{
+  width:70%;
+  margin-right: 20%;
+  background: #EE2737 ;
+  height: 40px;
+	padding: 0 25px;
+	border-radius: 50px;
+	line-height: 40px;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 0;
+	outline: none;
+	white-space: nowrap;
+	text-decoration: none;
+	letter-spacing: .5px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	font-family: 'ageo_personal_useregular'
+}
+
+img {
+  background-color: black;
+  width: 100%;
+  height: 30%;
+}
